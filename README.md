@@ -49,4 +49,28 @@ An embedded systems lab project that simulates a realistic FM radio tuner using 
 2. Press any of the three buttons to instantly jump to the corresponding preset station.
 3. After selecting a preset, the frequency remains locked until you physically turn the potentiometer again.
 
+## 📂 Project Structure
+4. ## 🔧 Technologies & Concepts Demonstrated
+- ADC reading and scaling with floating-point math
+- Real-time embedded user interface design
+- Button debouncing and input handling
+- Hysteresis for stable analog input
+- Noise filtering through sample averaging
+- Modular code structure with clear separation of concerns
+
+## 🧪 Lab Objectives Achieved
+- Convert analog input into meaningful frequency values
+- Design an interactive embedded UI with visual feedback
+- Implement preset-based control systems
+- Simulate a real-world radio device using embedded hardware
+
+---
+
+**Developed collaboratively by:**
+- Darren Kanake – Core System & Display
+- Emmanuel Kyalo – Preset Buttons & Input Control
+- Kamau Faith– Stability & Final Polish
+
+Made with  for Embedded Systems Lab • April 2026
+
 
