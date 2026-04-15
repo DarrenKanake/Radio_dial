@@ -24,20 +24,20 @@ An embedded systems lab project that simulates a realistic FM radio tuner using 
 
 ## 👥 Team Contributions
 
-### Alex Rivera – Core System & Display
+### Darren Kanake – Core System & Display
 - Set up ESP32 and SSD1306 OLED display via I2C
 - Implemented potentiometer ADC reading with averaging
 - Created smooth frequency mapping (88.0 – 108.0 MHz)
 - Developed the main display function with large frequency text and moving tuning bar
 
-### Jordan Kim – Preset Buttons & Input Control
+### Emmanuel Kyalo – Preset Buttons & Input Control
 - Added support for three push buttons with internal pull-ups
 - Implemented button debouncing to prevent false triggers
 - Created `checkPresetButton()` function
 - Integrated preset stations (100.3, 96.6, 106.8 MHz)
 - Ensured buttons take priority over potentiometer input
 
-### Sam Chen – Stability & Final Polish
+### Kamau Faith – Stability & Final Polish
 - Fixed critical "frequency jump-back" issue after preset selection
 - Added `lastStablePotFreq` and hysteresis logic for stability
 - Enhanced ADC averaging and noise resistance
@@ -49,4 +49,4 @@ An embedded systems lab project that simulates a realistic FM radio tuner using 
 2. Press any of the three buttons to instantly jump to the corresponding preset station.
 3. After selecting a preset, the frequency remains locked until you physically turn the potentiometer again.
 
-## 📂 Project Structure
+
