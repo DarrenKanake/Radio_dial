@@ -1,7 +1,6 @@
 # Radio_dial
  Preset Buttons & Debouncing  
 *Contributor: Emmanuel kyalo  
- 
 *What was added:
 
 - Added hardware support for three push buttons on GPIO32, GPIO33, and GPIO25
