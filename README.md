@@ -7,4 +7,4 @@
   - Large frequency text (e.g., "100.3 MHz")
   - Moving horizontal tuning bar (visual dial)
   - Fixed 88 and 108 MHz labels
-- Set up basic project structure, Serial debugging, and main loop
+- Set up basic project structure, Serial debugging, and main loop.
